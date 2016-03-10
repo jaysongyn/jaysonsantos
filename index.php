@@ -601,7 +601,7 @@
 
 				$scope.send = function(){
 					$scope.mensagem = "Enviando...";
-					$http.post("http://wwww.jaysonsantos.me/send.php",$scope.data).then(function (response) {
+					$http.post("http://www.jaysonsantos.me/send.php",$scope.data).then(function (response) {
 						$scope.myWelcome = response.data;
 						$scope.mensagem = "Mensagem Enviada";
 					});
