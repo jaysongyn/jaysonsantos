@@ -60,7 +60,7 @@
 					</button>
 					
 					<!-- ======= LOGO (for small screens)========-->
-					<a class="navbar-brand visible-xs scrollto" href="#home">Jd</a>
+					<a class="navbar-brand visible-xs scrollto" href="#home">JS</a>
 					
 				</div>
 				
