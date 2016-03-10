@@ -101,8 +101,8 @@
 				
 					<div class="col-sm-6 text-col">
 					
-						<h1>Olá, sou Jayson</h1>
-						<p>trabalho com desenvolvimento de soluções web</p>
+						<h1>Jayson Santos,</h1>
+						<p>desenvolvedor de soluções web.</p>
 						
 					</div>
 					
@@ -251,7 +251,7 @@
 					
 				
 				
-				<p class="text-center"><a class="btn btn-meflat scrollto white icon-left" href="#contact"><i class="fa fa-arrow-down"></i>Contrate-me</a></p>
+				<p class="text-center"><a class="btn btn-meflat scrollto white icon-left" href="#contact"><i class="fa fa-arrow-down"></i>Enviar Mensagem</a></p>
 				
 			</div>
 		
@@ -601,7 +601,7 @@
 
 				$scope.send = function(){
 					$scope.mensagem = "Enviando...";
-					$http.post("http://jaysonsantos.me/send.php",$scope.data).then(function (response) {
+					$http.post("http://wwww.jaysonsantos.me/send.php",$scope.data).then(function (response) {
 						$scope.myWelcome = response.data;
 						$scope.mensagem = "Mensagem Enviada";
 					});
